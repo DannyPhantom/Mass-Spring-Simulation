@@ -1,7 +1,7 @@
 #include "MassOnString.h"
-#include "Libraries\glew\glew.h"
-#include "Libraries\freeglut\freeglut.h"
-#include "Libraries\glm\gtx\transform.hpp"
+#include "Libraries/glew/glew.h"
+#include "Libraries/freeglut/freeglut.h"
+#include "Libraries/glm/gtx/transform.hpp"
 
 
 

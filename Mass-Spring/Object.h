@@ -3,7 +3,7 @@
 #include "Mass.h"
 #include "Spring.h"
 #include <vector>
-#include "Libraries\glm\glm.hpp"
+#include "Libraries/glm/glm.hpp"
 
 class Object
 {

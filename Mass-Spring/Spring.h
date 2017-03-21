@@ -13,7 +13,7 @@ public:
 	void setK(double k) { this->k = k; }
 	double getK() { return k; }
 
-	void setX0(double x0) { x0 = x0; }
+	void setX0(double x0) { this->x0 = x0; }
 	double getX0() { return x0; }
 
 	void setDamping(double damping) { this->damping = damping; }
