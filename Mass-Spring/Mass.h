@@ -14,6 +14,8 @@ private:
 	bool isStatic = false;
 
 	glm::vec3 velocity = glm::vec3(0.0f);
+
+	glm::vec3 windForce = glm::vec3(0.0f);
 public:
 	Mass();
 	Mass(double mass) : mass(mass) {}
@@ -39,5 +41,8 @@ public:
 	glm::vec3 getVelocity() { return velocity; }
 	void setVelocity(glm::vec3 vel) { velocity = vel; }
 
+	void resetWindForce();
+	void addWindForce(glm::vec3 force);
+	glm::vec3 getWindForce();
 };
 

@@ -18,8 +18,8 @@ MassOnString::~MassOnString()
 void MassOnString::create() {
 	Mass *mass = new Mass(1.0, glm::vec3(0, 1, 0));
 	mass->makeStatic();
-	Mass *mass2 = new Mass(5.0, glm::vec3(0, 1, 3));
-	Spring *spring = new Spring(700, glm::length(mass2->getPos() - mass->getPos()), 0.2, true);
+	Mass *mass2 = new Mass(5.0, glm::vec3(0, 0, 0));
+	Spring *spring = new Spring(50, glm::length(mass2->getPos() - mass->getPos()), 0.2, true);
 	mass2->connectToMass(mass, spring);
 	mass->connectToMass(mass2, spring);
 
